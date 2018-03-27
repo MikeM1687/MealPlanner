@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MealPlanner.Entities\MealPlanner.Entities.csproj" />
+    <ProjectReference Include="..\MealPlanner.Repositories.Interfaces\MealPlanner.Repositories.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
